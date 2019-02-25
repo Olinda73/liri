@@ -1,7 +1,8 @@
 var keys = require("./keys.js");
 
 var request = require('request');
-var Twitter = require('twitter');
+var OMDB = require('omdb');
+var BIT = require('bands-in-town');
 var Spotify = require('node-spotify-api');
 var fs = require('fs');
 var client = new Twitter(keys.twitterKeys);
